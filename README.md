@@ -12,8 +12,6 @@ ps aux | grep my-pattern
 
 ```
 
-
-```
 SCP (secure copy)
 
 ```bash
