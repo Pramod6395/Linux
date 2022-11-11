@@ -28,4 +28,16 @@ To copy a directory from a local to remote system, use the -r option:
 scp -r /local/directory remote_username@10.10.0.2:/remote/directory
 
 ```
+Copy the all file from directory execpt folder name n current directory
 
+
+```bash
+cp -RT path/folder/ .
+
+```
+Copy the all file from directory with folder name in current directory
+
+```bash
+cp -r path/folder/ .
+
+```
