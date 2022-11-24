@@ -41,3 +41,10 @@ Copy the all file from directory with folder name in current directory
 cp -r path/folder/ .
 
 ```
+
+To check disk space and also check file which are more than 1 GB
+```bash
+df -H
+sudo du -ht 1G /
+
+```
