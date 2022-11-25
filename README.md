@@ -46,5 +46,12 @@ To check disk space and also check file which are more than 1 GB
 ```bash
 df -H
 sudo du -ht 1G /
+```
+To check Local IP
+```bash
+hostname -I
+ifconfig -a
 
 ```
+
+
