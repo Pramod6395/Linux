@@ -53,5 +53,7 @@ hostname -I
 ifconfig -a
 
 ```
-
-
+To check Public IP
+```bash
+curl https://ipinfo.io/ip
+```
