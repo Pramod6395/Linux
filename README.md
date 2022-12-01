@@ -62,4 +62,10 @@ to check sys logs of any Linux service (r -reverse and u for unit)
 journalctl -ru zookeeper.service
 
 ```
+to check all linux service with same name 
+```bash
+systemctl list-units --type=service
+systemctl list-units --type=service | grep fft
+
+```
 
