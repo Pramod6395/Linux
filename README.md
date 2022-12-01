@@ -57,3 +57,9 @@ To check Public IP
 ```bash
 curl https://ipinfo.io/ip
 ```
+to check sys logs of any Linux service
+```bash
+journalctl -ru zookeeper.service
+
+```
+
