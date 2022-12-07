@@ -69,3 +69,8 @@ systemctl list-units --type=service | grep fft
 
 ```
 
+ls by date | List Unix files with 'ls' in date order
+```bash
+ls -alt
+
+```
