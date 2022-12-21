@@ -74,3 +74,22 @@ ls by date | List Unix files with 'ls' in date order
 ls -alt
 
 ```
+How to add Environment varibale in Linux:
+```bash
+#open the bashrc file:
+nana ~/.bashrc
+
+#Add at last of file as below
+export VARIABLE_NAME=VALUE
+
+#Save and close the file and run below command to take changes into effect.
+source ~/.bashrc
+
+#Check the set value from terminal:
+echo $VARIABLE_NAME
+```
+
+
+
+
+
