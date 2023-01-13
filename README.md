@@ -91,6 +91,7 @@ echo $VARIABLE_NAME
 #### Generate SSH Keys for root access:
 ```bash
 sudo su
+cd /root/.ssh
 ssh-keygen
 cat id_rsa.pub >> known_hosts
 ```
