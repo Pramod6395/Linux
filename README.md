@@ -93,6 +93,8 @@ echo $VARIABLE_NAME
 sudo su
 cd /root/.ssh
 ssh-keygen
+or
+sh-keygen -t rsa -f for_jenkins_key
 cat id_rsa.pub >> known_hosts
 ```
 
