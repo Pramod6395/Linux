@@ -88,7 +88,12 @@ source ~/.bashrc
 #Check the set value from terminal:
 echo $VARIABLE_NAME
 ```
-
+#### Generate SSH Keys for root access:
+```bash
+sudo su
+ssh-keygen
+cat id_rsa.pub >> known_hosts
+```
 
 
 
