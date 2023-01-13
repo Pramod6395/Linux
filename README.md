@@ -94,7 +94,7 @@ sudo su
 cd /root/.ssh
 ssh-keygen
 or
-sh-keygen -t rsa -f for_jenkins_key
+ssh-keygen -t rsa -f for_jenkins_key
 cat id_rsa.pub >> known_hosts
 ```
 
