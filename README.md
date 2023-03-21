@@ -101,5 +101,9 @@ cat id_rsa.pub >> known_hosts
 ```bash
 nano /etc/security/limits.conf
 ```
-
+#### server monitoring command:
+```bash
+sudo apt  install glances
+glances
+```
 
