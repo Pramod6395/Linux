@@ -109,5 +109,4 @@ glances
 #### To check to big file/folder in same directory:
 ```bash
 du -sh * | sort -rh | head -5
-glances
 ```
