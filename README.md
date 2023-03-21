@@ -97,7 +97,9 @@ or
 ssh-keygen -t rsa -f for_jenkins_key
 cat id_rsa.pub >> known_hosts
 ```
-
-
+#### ERROR : Too many open files (you can change the number of open files by editing):
+```bash
+nano /etc/security/limits.conf
+```
 
 
